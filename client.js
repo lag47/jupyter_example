@@ -85,6 +85,14 @@ function runCurrCell(){
 
 function selectCell(cell){
     currCell = cell.id;
+    for(i = 0; i < cells_data.length; i++){
+        if(i == cell.id){
+            document.getElementById(i).style.backgroundColor = "grey";
+        }
+        else{
+            document.getElementById(i).style.backgroundColor = "lightgrey";
+        }
+    }
     console.log(currCell);
 }
 

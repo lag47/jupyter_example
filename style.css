@@ -7,14 +7,34 @@
     margin: 10px;
 }
 
+#top{
+    height: 50px;
+    background-color:#0818A8;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+#titl{
+    background-color: black;
+    color : whitesmoke;
+    margin: 40px;
+}
+
+#top h4{
+    height: 50px;
+    background-color:#0818A8;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
 .cell{
     background-color: lightgray;
     align-items: center;
     flex-flow: row wrap;
-}
-
-.cell:hover{
-    background-color: grey;
 }
 
 .text-center {
